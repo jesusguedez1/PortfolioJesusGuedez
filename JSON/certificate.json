@@ -1,0 +1,58 @@
+{
+    "certificateGril": [
+      {
+        "companyName": "Grill Brothers",
+        "certificateName": "Jefe de Cocina",
+        "description": "Certificado emitido por la gerencia de INVERSIONES HERMANOS SAC por haber desempeñado el cargo de Jefe de Cocina correctamente."
+      }
+    ],
+    "certificateArrozGracias": [
+      {
+        "companyName": "Arroz Gracias",
+        "certificateName": "Cocinero",
+        "description": "Certificado emitido por la gerencia de MIN ALIMENTARIAS SAC por haber desempeñado el cargo de Cocinero correctamente."
+      }
+    ],
+    "certificateAndiamo": [
+      {
+        "companyName": "Andiamo",
+        "certificateName": "Jefe de Cocina",
+        "description": "Certificado emitido por la gerencia de ALGORES SAC por haber desempeñado el cargo de Jefe de Cocina correctamente."
+      }
+    ],
+    "certificateHTML": [
+      {
+        "companyName": "Ademass",
+        "certificateName": "Certificado HTML5",
+        "description": "Certificado emitido por la gerencia de INVERSIONES HERMANOS SAC por haber desempeñado el cargo de Jefe de Cocina correctamente.",
+        "url": "https://campus-ademass.com/aut/5271"
+      }
+    ],
+    "certificateCSS": [
+      {
+        "companyName": "Ademass",
+        "certificateName": "Certificado CSS3",
+        "description": "Certificado emitido por la gerencia de MIN ALIMENTARIAS SAC por haber desempeñado el cargo de Cocinero correctamente.",
+        "url": "https://campus-ademass.com/aut/6467"
+      }
+    ],
+    "certificateJS": [
+      {
+        "companyName": "Ademass",
+        "certificateName": "Certificado JavaScript",
+        "description": "Certificado emitido por la gerencia de ALGORES SAC por haber desempeñado el cargo de Jefe de Cocina correctamente.",
+        "url": "https://campus-ademass.com/aut/12380"
+      }
+    ],
+    "certificateReact": [
+      {
+        "companyName": "Ademass",
+        "certificateName": "Certificado React",
+        "description": "Certificado emitido por la gerencia de ALGORES SAC por haber desempeñado el cargo de Jefe de Cocina correctamente.",
+        "url": "https://campus-ademass.com/aut/14350"
+      }
+    ]
+
+  }
+
+  
