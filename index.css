@@ -467,7 +467,7 @@ footer{
     width: 75%;
 }
 
-@media (max-width: 1540px){
+@media screen and (max-width: 1540px){
     .logo-principal-header_007008009 img{
         height: 6.7vh;
     }
@@ -480,7 +480,19 @@ footer{
         padding-top: 0.3vh;
     }
 }
-@media (max-width: 1350px){
+@media screen and (max-height: 900px){
+    .divContent-mainContainer_4846549 h2{
+        font-size: 4vh;
+    }
+    .divContent-mainContainer_4846549 h4{
+        font-size: 2.2vh;
+    }
+    .divContent-mainContainer_4846549 p{
+        font-size: 2vh;
+    }
+}
+
+@media screen and (max-width: 1350px){
     .logo-principal-header_007008009 img{
         height: 6.0vh;
     }
@@ -493,12 +505,12 @@ footer{
         padding-top: 0.3vh;
     }
 }
-@media (max-width: 1150px){
+@media screen and (max-width: 1150px){
     header{
         padding-left: 14vh;
     }
 }
-@media (max-width: 1050px){
+@media screen and (max-width: 1050px){
     
     .logo-principal-header_007008009 img{
         height: 6.5vh;
@@ -642,7 +654,7 @@ footer{
         font-size: 1rem;
     }
 }
-@media(max-width: 870px){
+@media screen and (max-width: 870px){
     header{
         padding-left: 10vh;
     }
@@ -686,7 +698,7 @@ footer{
         font-size: 1rem;
     }
 }
-@media(max-width: 770px){
+@media screen and(max-width: 770px){
     .contentGlobal-SectionMain_548488{
         height: 50vh;
         width: 65vh;
@@ -745,7 +757,7 @@ footer{
         
     }
 }
-@media(max-width: 670px){
+@media screen and (max-width: 670px){
     .contentGlobal-SectionMain_548488{
         height: 75vh;
         width: 50vh;
@@ -785,6 +797,8 @@ footer{
     }
     .imageContent-divMain_4545848 img{
         border-radius: 30px;
+        height: 36vh;
+        width: 30vh;
     }
     .divContent-mainContainer_4846549{
         height: 30%;
@@ -797,8 +811,11 @@ footer{
     .divContent-mainContainer_4846549 p{
         width: 100%;
     }
+    footer{
+        height: 4vh;
+    }
 }
-@media(max-width: 550px){
+@media screen and (max-width: 550px){
     .contentGlobal-SectionMain_548488{
         height: 70vh;
         width: 45vh;
@@ -830,7 +847,7 @@ footer{
         gap: 0.6vh;
     }
 }
-@media(max-width: 475px){
+@media screen and (max-width: 475px){
     header{
         padding: 0;
         justify-content: space-evenly;
