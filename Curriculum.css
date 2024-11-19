@@ -1347,11 +1347,16 @@ footer{
     .Skills-container_478844{
         padding-left: 0;
         justify-content: space-evenly;
+        height: 20vh;
     }
     .Skills-container_478844 h2 {
         width: 50%;
         padding-left: 2vh;
         font-size: 1.5rem;
+    }
+    .divisor-Skills-content{
+        justify-content: center;
+        
     }
     .divisor-Skills-content p{
         width: 100%;
@@ -1402,5 +1407,48 @@ footer{
     .title-principal{
         font-size: 1.3vh;
     }
+    .container-Footer-divSuperior_9988999 h3{
+        font-size: 1.5vh;
+    }
+    .container-Footer-divSuperior_9988999 h4{
+        font-size: 1.4vh;
+    }
 
+}
+@media screen and (max-width: 550px) {
+    .divisor-Skills-content{
+        padding-left: 1vh;
+    }
+    .DataQuestion-IP_148985 li{
+        font-size: 1.45vh;
+    }
+    .title-information_65564854 h2{
+        font-size: 1.9vh;
+    }
+    .Skills-container_478844 h2{
+        font-size: 2.4vh;
+    }
+    .workExperence-Container-Principal_589784465 h3{
+        font-size: 2.1vh;
+    }
+    .workPosition_444444{
+        font-size: 1.4vh;
+    }
+    .restaurantName_555555{
+         font-size: 1.4vh;
+    }
+    .titleWorkExperience-container777888999 .listWorkExperience_86557788_num2{
+        font-size: 1.4vh;
+    }
+    header{
+        padding: 0;
+        justify-content: space-evenly;
+    }
+    .logo-principal-header_007008009 img{
+        height: 6vh;
+    }
+    .titleWorkExperience-container777888999{
+        justify-content: space-evenly;
+        width: 100%;
+    }
 }
