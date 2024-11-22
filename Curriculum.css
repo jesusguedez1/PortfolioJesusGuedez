@@ -791,7 +791,7 @@ a .btnItmesName-Curriculum_686569{
     border-radius: 8px;
     border: 0;
     cursor: pointer;
-    background: linear-gradient(to right, #ff0000 50%, #ffffff 50%);
+    background: linear-gradient(to right, #71b2c5, #c3d250 50%, #ffffff 50%);
     background-size: 200% 100%;
     background-position: right;
     transition: background-position 0.7s ease, color 0.8s ease;
@@ -916,6 +916,90 @@ footer{
         .certificadeSecundaryCOntainer_16515{
             height: 142vh;
         }
+    }
+    .imageShowEventClick img{
+        height: 70vh;
+    }
+    .tal{
+        height: 70vh;
+        width: 40vh;
+    }
+    .contalH2{
+        font-size: 3rem;
+    }
+    .contalH3{
+        font-size: 1.6rem;
+    }
+    .contalP{
+        font-size: 1.5rem;
+    }
+    .imageShowEventClick_Tow2 img{
+        height: 60vh;
+        width: 85vh;
+    } 
+    .tal_Tow2{
+        height: 60vh;
+    }
+    .contal_Tow2{
+        justify-content: center;
+        margin: 0;
+    }
+    .contalH2_Tow2{
+        font-size: 2.8rem;
+    }
+    .contalH3_Tow2{
+        font-size: 1.5rem;
+    }
+    .contalP_Tow2{
+        font-size: 1.3rem;
+    }
+    .contalBotton_Tow2{
+        width: 15vh;
+        font-size: 1.03rem;
+        margin-top: 4vh;
+    }
+    .iconX-closep_151515_Tow2{
+        padding-left: 8vh;
+        margin-bottom: 5vh;
+    }
+}
+@media screen and (max-width: 1210px) {
+    .imageShowEventClick_Tow2{
+        flex-direction: column;
+        height: 77%;
+    }
+    .tal_Tow2{
+        height: 50vh;
+        width: 80vh;
+        border-radius: 0 0 10px 10px;
+    }
+    .contal_Tow2{
+        height: 100%;
+        width: 80%;
+        justify-content: space-evenly;
+    }
+    .imageShowEventClick_Tow2 img{
+        height: 56vh;
+        width: 80vh;
+        border: 2px solid #252525;
+        border-radius: 10px 10px 0 0 ;
+        border-bottom: 0;
+    }
+    .contalH2_Tow2{
+        font-size: 1.7rem;
+    }
+    .contalH3_Tow2{
+        font-size: 1.2rem;
+        margin-top: 0;
+    }
+    .contalP_Tow2{
+        font-size: 1.1rem;
+        margin-top: 0;
+    }
+    .contalBotton_Tow2{
+        width: 14vh;
+        margin-top: 0;
+        height: 3.1vh;
     }
 }
 @media (max-width: 1050px){
@@ -1211,7 +1295,38 @@ footer{
     }
    
 }
+@media screen and (max-width: 940px) {
+    .imageShowEventClick_Tow2 img{
+        height: auto;
+        width: 85vw;
+        object-fit: cover;
+    }
+    .tal_Tow2{
+        height: 25vw;
+        width: 85vw;
+    }
+    .popup-imageClass_Tow2222_333{
+        width: 100%;
+    }
+    .contalH2_Tow2{
+        font-size: 3vw;
+    }
+    .contalH3_Tow2{
+        font-size: 2vw;
+    }
+    .contalP_Tow2{
+        font-size: 1.8vw;
+    }
+    .contalBotton_Tow2{
+        width: 15vw;
+        height: 3.4vw;
+        font-size: 1.8vw;
+    }
+}
 @media screen and (max-width: 875px){
+    .popup-imageClass_Tow2222_333{
+        width: 100%;
+    }
     .certificadeSecundaryCOntainer_16515{
         height: 180vh;
     }
