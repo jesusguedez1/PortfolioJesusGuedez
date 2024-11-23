@@ -1244,6 +1244,30 @@ footer{
         background-color: #fcfcfc;
         border-left: 5px solid #ff0000;
     }
+    .tal{
+        height: 60vh;
+        width: 35vh;
+    }
+    .contal{
+        width: 80%;
+        padding: 0;
+        justify-content: center;
+    }
+    .contalH2{
+        font-size: 2.5rem;
+    }
+    .contalH3{
+        font-size: 1.4rem;
+        margin-top: 2vh;
+    }
+    .contalP{
+        font-size: 1.3rem;
+        margin-top: 1vh;
+    }
+    .imageShowEventClick img{
+        height: 60vh;
+        width: 44vh;
+    }
 }
 @media screen and (max-width: 1000px) {
     .itemsGeneral-personalInformation_398784{
@@ -1298,8 +1322,10 @@ footer{
 @media screen and (max-width: 940px) {
     .imageShowEventClick_Tow2 img{
         height: auto;
+        max-width: 100%;
         width: 85vw;
         object-fit: cover;
+        image-rendering: auto;
     }
     .tal_Tow2{
         height: 25vw;
@@ -1323,6 +1349,70 @@ footer{
         font-size: 1.8vw;
     }
 }
+
+@media screen and (max-width: 900px) {
+    .popup-imageClass_2222{
+        width: 100%;
+        height: 100%;
+    }
+    .tal{
+        height: 21vh;
+        width: 50vh;
+    }
+    .imageShowEventClick{
+        flex-direction: column;
+    }
+    .contalH2{
+        font-size: 2rem;
+        height: auto;
+    }
+    .contalH3{
+        font-size: 1.2rem;
+        margin: 0;
+        height: auto;
+    }
+    .contalP{
+        font-size: 1rem;
+        margin: 0;
+        height: auto;
+    }
+    .contal{
+        height: 70%;
+        justify-content: space-evenly;
+    }
+    .imageShowEventClick img{
+        width: 50vh;
+    }
+}
+@media screen and (max-width: 725px) {
+    .iconX-closep_151515{
+        padding-right: 2vh;
+    }
+}
+@media screen and (max-width: 525px) {
+    .iconX-closep_151515{
+        padding-right: 1vh;
+    }
+    .imageShowEventClick img{
+        width: 90vw;
+        height: auto;
+        object-fit: cover;
+    }
+    .tal{
+        width: 90vw;
+        height: 35vw;
+    }
+    .contalH2{
+        font-size: 7vw;
+    }
+    .contalH3{
+        font-size: 4vw;
+    }
+    .contalP{
+        font-size: 3vw;
+    }
+}
+
 @media screen and (max-width: 875px){
     .popup-imageClass_Tow2222_333{
         width: 100%;
@@ -1529,6 +1619,26 @@ footer{
         font-size: 1.4vh;
     }
 
+}
+@media screen and (max-width: 600px) {
+    .contalP_Tow2{
+        display: none;
+    }    
+    .contalH2_Tow2{
+        font-size: 6vw;
+    }
+    .contalH3_Tow2{
+        font-size: 2.5vw;
+    }
+    .contalBotton_Tow2{
+        width: 40vw;
+        height: 4vh;
+        font-size: 3vw;
+        border-radius: 30px;
+    }
+    .contal_Tow2{
+        align-items: center;
+    }
 }
 @media screen and (max-width: 550px) {
     .divisor-Skills-content{
