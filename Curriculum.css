@@ -856,6 +856,20 @@ footer{
         font-size: 1.8vh;
         list-style: none;
     }
+    footer{
+        height: 5vh;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .container-Footer-divSuperior_9988999{
+        height: 100%;
+    }
+    .Item-Footer-Phone_0008345 h3{
+        font-size: 1em;
+    }
+    .Item-Footer-Phone_0008345 h4{
+        font-size: 1em;
+    }
 }
 @media screen and (max-width: 1540px){
     .logo-principal-header_007008009 img{
@@ -1129,10 +1143,10 @@ footer{
         width: 90%;
     }
     .Item-Footer-Phone_0008345 h3{
-        font-size: 1.1rem;
+        font-size: 1em;
     }
     .Item-Footer-Phone_0008345 h4{
-        font-size: 1rem;
+        font-size: 1em;
     }
 }
 @media screen and (max-width: 1350px){
