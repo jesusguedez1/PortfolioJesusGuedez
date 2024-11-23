@@ -1482,6 +1482,21 @@ footer{
         font-size: 2.5vh;
     }
 }
+@media screen and (max-height: 790px) {
+    .contalH2_Tow2{
+        font-size: 7vh;
+    }
+    .contalH3_Tow2{
+        font-size: 3.2vh;
+    }
+    .contalP_Tow2{
+        font-size: 3vh;
+    }
+    .contalBotton_Tow2{
+        height: 4vh;
+        width: 20vh;
+    }
+}
 @media screen and (max-width: 760px) {
     .listWorkExperience_86557788_num2{
         gap: 3.1vh;
