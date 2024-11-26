@@ -414,42 +414,20 @@ a .btnItmesName-SobreMi_686569{
     transition: background-color 0.3s ease-in-out;
 }
 
-.buttonBack:hover{
+.buttonBack:active{
     background-color: #fff;
     transition: background-color 0.2s ease-in-out ;
-    animation: move1 0.8s linear;
 }
-@keyframes move1{
-    0%{
-        right: 0;
-    }
-    50%{
-        right: 10px;
-    }
-    100%{
-        right: 0;
-    }
-}
+
 .buttonForward{
     background-color: #ffffff13;
     position: relative;
     transition: background-color 0.3s ease-in-out;
 }
-.buttonForward:hover{
+.buttonForward:active{
     background-color: #fff;
     transition: background-color 0.2s ease-in-out ;
-    animation: move2 0.8s linear;
-}
-@keyframes move2{
-    0%{
-        left: 0;
-    }
-    50%{
-        left: 10px;
-    }
-    100%{
-        left: 0;
-    }
+    
 }
 .containerSecundaryShowPhotos button img{
     height: 4vh;
@@ -1078,6 +1056,14 @@ footer{
     .container-Global_11111.show h2{
         font-size: 2rem;
     }
+    .containerSecundaryShowPhotos{
+        align-items: center;
+    }
+    .PhotoOfContainerShowGallery{
+        height: auto;
+        max-height: 85%;
+        width: 50vh;
+    }
 }
 @media screen and (max-width: 650px) {
     .MainClass{
@@ -1114,6 +1100,20 @@ footer{
         width: 80%;
         font-size: 1rem;
     }
+    .containerSecundaryShowPhotos button{
+        height: 5.5vh;
+        width: 5.5vh;
+    }
+    .buttonForward{
+        right: 5vh;
+        background-color: #ffffff83;
+        border: none;
+    }
+    .buttonBack{
+        left: 5vh;
+        background-color: #ffffff83;
+        border: none;
+    }
 }
 @media screen and (max-width: 570px) {
     .informationAboutMe_sectionKitchen_77888999{
@@ -1147,11 +1147,55 @@ footer{
         font-size: 0.7rem;
     }
 }
+@media screen and (max-width: 550px) {
+    .PhotoOfContainerShowGallery{
+        width: 45vh;
+    }
+    .containerSecundaryShowPhotos button{
+        height: 4.9vh;
+        width: 4.9vh;
+    }
+    .containerSecundaryShowPhotos{
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 500px) {
+    .PhotoOfContainerShowGallery{
+        width: 40vh;
+    }
+    .globlaContainerDescriptionShow_45445{
+        top: 76vh;
+    }
+    .containerButtonClosepShow{
+        bottom: 88vh;
+        left: 1vh;
+    }
+}
+@media screen and (max-width: 450px) {
+    
+}
 @media screen and (max-width:360px) and (max-height:800px) {
     .informationAboutMe_sectionKitchen_77888999 p{
         font-size: 4.6vw;
     }
     .informationAboutMe_sectionPrograming p{
         font-size: 4.6vw;
+    }
+}
+@media screen and (max-height: 690px) {
+    .descriptionShowGallery h1{
+        font-size: 1.1rem;
+    }
+    .descriptionShowGallery h3{
+        font-size: 1rem;
+    }
+    .descriptionShowGallery p{
+        font-size: 0.8rem;
+    }
+    .globlaContainerDescriptionShow_45445{
+        top: 75vh;
+    }
+    .containerButtonClosepShow{
+        bottom: 87vh;
     }
 }
