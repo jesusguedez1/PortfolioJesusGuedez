@@ -324,7 +324,7 @@ a .btnItmesName-SobreMi_686569{
     flex-wrap: wrap;
 }
 .classParagraph_856789{
-    height: 20vh;
+    height: 15vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -1078,7 +1078,7 @@ footer{
     }
     .sectionSecundaryOfMian-aboutMe_885496{
         padding-top: 5vh;
-        height: 47vh;
+        height: 37vh;
         gap: 0.5vh;
     }
     .contentMain-aboutme_45454{
@@ -1114,6 +1114,12 @@ footer{
         background-color: #ffffff83;
         border: none;
     }
+    .informationAboutMe_sectionKitchen_77888999{
+        height: 12vh;
+    }
+    .sectionSecundaryOfMian-aboutMe_885496{
+        gap: 1vh;
+    }
 }
 @media screen and (max-width: 570px) {
     .informationAboutMe_sectionKitchen_77888999{
@@ -1128,6 +1134,7 @@ footer{
     .sectionSecundaryOfMian-aboutMe_885496{
         width: 100%;
         align-items: center;
+        gap: 1vh;
     }
     .contentMain-aboutme_45454{
         width: 70%;
@@ -1146,6 +1153,9 @@ footer{
     .Item-Footer-Phone_0008345 h4{
         font-size: 0.7rem;
     }
+    .contentMain-aboutme_45454{
+        padding-top: 2vh;
+    }
 }
 @media screen and (max-width: 550px) {
     .PhotoOfContainerShowGallery{
@@ -1158,8 +1168,11 @@ footer{
     .containerSecundaryShowPhotos{
         justify-content: center;
     }
+    .informationAboutMe_sectionPrograming h3{
+        width: 22vh;
+    }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 500px) and (max-height: 780px) {
     .PhotoOfContainerShowGallery{
         width: 40vh;
     }
@@ -1171,15 +1184,27 @@ footer{
         left: 1vh;
     }
 }
-@media screen and (max-width: 450px) {
-    
-}
-@media screen and (max-width:360px) and (max-height:800px) {
+@media screen and (min-width: 370px) {
+    .informationAboutMe_sectionPrograming h3{
+        width: 25vh;
+    }
+    .sectionSecundaryOfMian-aboutMe_885496{
+        gap: 4vh;
+    }
+    .informationAboutMe_sectionKitchen_77888999 h3{
+        font-size: 1.1rem;
+    }
+    .informationAboutMe_sectionPrograming h3{
+        font-size: 1.1rem;
+    }
     .informationAboutMe_sectionKitchen_77888999 p{
-        font-size: 4.6vw;
+        font-size: 0.8rem;
     }
     .informationAboutMe_sectionPrograming p{
-        font-size: 4.6vw;
+        font-size: 0.8rem;
+    }
+    .contentMain-aboutme_45454{
+        padding-top: 0;
     }
 }
 @media screen and (max-height: 690px) {
@@ -1197,5 +1222,15 @@ footer{
     }
     .containerButtonClosepShow{
         bottom: 87vh;
+    }
+    .sectionSecundaryOfMian-aboutMe_885496{
+        height: 68vh;
+        gap: 7.5vh;
+    }
+    .contentMain-aboutme_45454{
+        gap: 2.5vh;
+    }
+    .contentMain-aboutme_45454{
+        padding-top: 0;
     }
 }
