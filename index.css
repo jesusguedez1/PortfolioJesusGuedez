@@ -479,6 +479,7 @@ footer{
     .iconBackground{
         display: none;
     }
+}
 @media screen and (max-height: 900px){
     .divContent-mainContainer_4846549 h2{
         font-size: 4vh;
@@ -941,4 +942,3 @@ footer{
         
     }
     }
-}

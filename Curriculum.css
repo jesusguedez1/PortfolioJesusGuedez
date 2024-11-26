@@ -1161,6 +1161,7 @@ footer{
         height: 2.0vh;
         padding-top: 0.3vh;
     }
+    
 }
 @media screen and (max-width: 1150px){
     header{
@@ -1705,5 +1706,8 @@ footer{
     .titleWorkExperience-container777888999{
         justify-content: space-evenly;
         width: 100%;
+    }
+    .iconX-closep_151515_Tow2{
+        padding-right: 3vh;
     }
 }
