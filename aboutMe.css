@@ -173,7 +173,7 @@ a .btnItmesName-SobreMi_686569{
     object-fit: cover;
 }
 .sectionSecundaryOfMian-aboutMe_885496{
-    height: 60vh;
+    height: 50vh;
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -272,47 +272,21 @@ a .btnItmesName-SobreMi_686569{
     gap: 0.3vh;
 }
 .informationAboutMe_sectionKitchen_77888999{
-    height: 10vh;
-    width: 60vh;
+    height: 20vh;
+    width: 50vh;
 }
 .informationAboutMe_sectionKitchen_77888999 h3{
+    width: 9vh;
     font-family: var(--fontSecundary);
     font-size: 1.5rem;
     font-weight: 500;
     padding-bottom: 0.2vh;
-}
-.hrAboutMe_123{
-    width: 16.2vh;
-    height: 0.3vh;
-    background-color: #ff0000;
-    border: 0;
+    border-bottom: 3px solid #ff0000;
 }
 .informationAboutMe_sectionKitchen_77888999 p{
     font-family: var(--fontSecundary);
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
-.informationAboutMe_sectionPrograming{
-    height: 15vh;
-    width: 60vh;
-    padding-top: 6vh;
-}
-.informationAboutMe_sectionPrograming h3{
-    font-family: var(--fontSecundary);
-    font-size: 1.5rem;
-    font-weight: 500;
-    padding-bottom: 0.2vh;
-}
-.hrTwoAboutMe_456{
-    width: 17.5vh;
-    height: 0.3vh;
-    background-color: #ff0000;
-    border: 0;
-}
-.informationAboutMe_sectionPrograming p{
-    font-family: var(--fontSecundary);
-    font-size: 1.3rem;
-}
-
 .SectionclassPhoto_8574455{
     height: auto;
     max-width: 100%;
@@ -779,10 +753,7 @@ footer{
         font-size: 1.1rem;
         width: 80%;
     }
-    .informationAboutMe_sectionPrograming p{
-        font-size: 1.1rem;
-        width: 80%;
-    }
+    
 }
 @media screen and (max-width: 1150px){
     header{
@@ -797,10 +768,9 @@ footer{
     }
     .informationAboutMe_sectionKitchen_77888999 h3{
         font-size: 1.4rem;
+        width: 8.5vh;
     }
-    .informationAboutMe_sectionPrograming h3{
-        font-size: 1.4rem;
-    }
+    
     .sectionOfMian-aboutMe_885494{
         align-items: center;
     }
@@ -939,13 +909,10 @@ footer{
         font-size: 1rem;
     }
     .contentMain-aboutme_45454{
-        height: 15vh;
+        height: 10vh;
     }
     .container-Global_11111.show h2{
         font-size: 2.2rem;
-    }
-    .informationAboutMe_sectionPrograming{
-        padding-top: 0vh;
     }
     .informationAboutMe_sectionKitchen_77888999{
         height: 14vh;
@@ -960,19 +927,9 @@ footer{
         font-size: 1rem;
         width: 60%;
     }
-    .informationAboutMe_sectionPrograming p{
-        font-size: 1rem;
-        width: 60%;
-    }
     .informationAboutMe_sectionKitchen_77888999 h3{
         font-size: 1.3rem;
-    }
-    .informationAboutMe_sectionPrograming h3{
-       font-size: 1.3rem;
-    }
-    .hrAboutMe_123{
-        height: 0.2vh;
-        width: 13.8vh;
+        width: 8vh;
     }
     .hrTwoAboutMe_456{
         height: 0.2vh;
@@ -1001,15 +958,11 @@ footer{
     .informationAboutMe_sectionKitchen_77888999{
         width: 40vh;
     }
-    .informationAboutMe_sectionPrograming{
-        width: 40vh;
-    }
+    
     .informationAboutMe_sectionKitchen_77888999 p{
         width: 90%;
     }
-    .informationAboutMe_sectionPrograming p{
-        width: 90%;
-    }
+    
     .Item-Footer-Phone_0008345 h3{
         font-size: 1rem;
     }
@@ -1041,23 +994,16 @@ footer{
         
     }
     .informationAboutMe_sectionKitchen_77888999 h3{
-        width: 20vh;
+        width: 7.5vh;
         font-size: 1.2rem;
     }
-    .informationAboutMe_sectionPrograming h3{
-        width: 20vh;
-        font-size: 1.2rem;
-    }
+    
     .informationAboutMe_sectionKitchen_77888999 p{
         width: 75%;
         height: auto;
         font-size: 0.9rem;
     }
-    .informationAboutMe_sectionPrograming p{
-        width: 75%;
-        height: auto;
-        font-size: 0.9rem;
-    }
+    
     .container-Global_11111.show h2{
         font-size: 2rem;
     }
@@ -1083,21 +1029,21 @@ footer{
     }
     .sectionSecundaryOfMian-aboutMe_885496{
         padding-top: 5vh;
-        height: 37vh;
+        height: auto;
         gap: 0.5vh;
+        width: 90%;
     }
     .contentMain-aboutme_45454{
         width: 100%;
         display: flex;
         height: 5vh;
-        gap: 1vh;
+        gap: 0;
+        justify-content: center;
     }
     .greet-divPrincipal_4848422{
         width: 10vh;
     }
-    .informationAboutMe_sectionPrograming p{
-        width: 100%;
-    }
+    
     .classParagraph_856789 h3{
         font-size: 1.7rem;
     }
@@ -1120,10 +1066,28 @@ footer{
         border: none;
     }
     .informationAboutMe_sectionKitchen_77888999{
-        height: 12vh;
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
     }
     .sectionSecundaryOfMian-aboutMe_885496{
         gap: 1vh;
+    }
+    .sectonSecundaryAboutMe{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1vh;
+    }
+    .containerDiv_84848484848{
+        width: 18vh;
     }
 }
 @media screen and (max-width: 570px) {
@@ -1133,9 +1097,7 @@ footer{
     .informationAboutMe_sectionKitchen_77888999 p{
         width: 100%;
     }
-    .informationAboutMe_sectionPrograming{
-        width: 35vh;
-    }
+    
     .sectionSecundaryOfMian-aboutMe_885496{
         width: 100%;
         align-items: center;
@@ -1146,14 +1108,14 @@ footer{
         padding-top: 2vh;
     }
     .sectionSecundaryOfMian-aboutMe_885496{
-        height: 55vh;
+        height: 25vh;
         gap: 1vh;
     }
     .sectionSecundaryOfMian-aboutMe_885496{
         justify-content: center;
         padding: 0;
         gap: 4vh;
-        height: 52vh;
+        height: 25vh;
     }
     .Item-Footer-Phone_0008345 h3{
         font-size: 0.8rem;
@@ -1162,7 +1124,11 @@ footer{
         font-size: 0.7rem;
     }
     .contentMain-aboutme_45454{
-        padding-top: 2vh;
+        padding-top: 0;
+        height: 5vh;
+    }
+    .sectionOfMian-aboutMe_885494{
+        height: 60vh;
     }
 }
 @media screen and (max-width: 550px) {
@@ -1176,23 +1142,15 @@ footer{
     .containerSecundaryShowPhotos{
         justify-content: center;
     }
-    .informationAboutMe_sectionPrograming h3{
-        width: 22vh;
-    }
-    .hrAboutMe_123{
-        display: none;
-    }
+    
     .hrTwoAboutMe_456{
         display: none;
     }
     .informationAboutMe_sectionKitchen_77888999 h3{
-        border-bottom: 1px solid #ff0000;
+        border-bottom: 2px solid #ff0000;
         width: auto;
     }
-    .informationAboutMe_sectionPrograming h3{
-        border-bottom: 1px solid #ff0000;
-        width: auto;
-    }
+    
 }
 
 @media screen and (max-width: 500px) and (max-height: 780px) {
@@ -1203,8 +1161,9 @@ footer{
         top: 76vh;
     }
     .containerButtonClosepShow{
-        bottom: 88vh;
-        left: 1vh;
+        bottom: 90vh;
+        left: 3vh;
+
     }
     .globlaContainerDescriptionShow_45445{
         top: 70vh;
@@ -1214,26 +1173,17 @@ footer{
     .sectionSecundaryOfMian-aboutMe_885496{
         gap: 4vh;
     }
-}
-@media screen and (min-width: 370px) {
-    
-    .sectionSecundaryOfMian-aboutMe_885496{
-        gap: 0;
-    }
-    .informationAboutMe_sectionKitchen_77888999 h3{
-        font-size: 1.1rem;
-    }
-    .informationAboutMe_sectionPrograming h3{
-        font-size: 1.1rem;
-    }
-    .informationAboutMe_sectionKitchen_77888999 p{
-        font-size: 0.8rem;
-    }
-    .informationAboutMe_sectionPrograming p{
-        font-size: 0.8rem;
+    .sectonSecundaryAboutMe{
+        height: 60vh;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .contentMain-aboutme_45454{
-        padding-top: 0;
+        width: 94%;
+        
     }
 }
 
@@ -1251,11 +1201,11 @@ footer{
         top: 75vh;
     }
     .containerButtonClosepShow{
-        bottom: 87vh;
+        bottom: 90vh;
     }
     .sectionSecundaryOfMian-aboutMe_885496{
         height: 68vh;
-        gap: 7.5vh;
+        gap: 5vh;
     }
     .contentMain-aboutme_45454{
         gap: 2.5vh;
