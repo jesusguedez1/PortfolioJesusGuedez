@@ -949,8 +949,8 @@ footer{
         justify-content: space-around;
     }
     .sectionOfMian-aboutMe_885494 video{
-        height: 48vh;
-        width: 22vh;
+        height: 55vh;
+        width: 25vh;
     }
     .contentMain-aboutme_45454{
         height: 10vh;
@@ -1126,9 +1126,22 @@ footer{
     .contentMain-aboutme_45454{
         padding-top: 0;
         height: 5vh;
+        gap: 1vh;
     }
     .sectionOfMian-aboutMe_885494{
         height: 60vh;
+    }
+    .greet-divPrincipal_4848422{
+        width: auto;
+    }
+    .container-Global_11111.show h2{
+        font-size: 1.5rem;
+    }
+    .greetAndName-divPrincipal_48421313{
+        width: auto;
+    }
+    .greetAndName-divPrincipal_48421313_num2{
+        width: auto;
     }
 }
 @media screen and (max-width: 550px) {
