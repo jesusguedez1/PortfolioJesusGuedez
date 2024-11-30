@@ -1019,9 +1019,10 @@ footer{
 @media screen and (max-width: 650px) {
     .MainClass{
         flex-direction: column-reverse;
-        height: auto;
+        height: 100vh;
         padding-top: 10vh;
         margin-bottom: 10vh;
+        justify-content: space-between;
     }
     .sectionOfMian-aboutMe_885494{
         height: 50vh;
@@ -1143,6 +1144,10 @@ footer{
     .greetAndName-divPrincipal_48421313_num2{
         width: auto;
     }
+    .MainClass{
+        height: auto;
+        justify-content: center;
+    }
 }
 @media screen and (max-width: 550px) {
     .PhotoOfContainerShowGallery{
@@ -1227,7 +1232,7 @@ footer{
         bottom: 90vh;
     }
     .sectionSecundaryOfMian-aboutMe_885496{
-        height: 68vh;
+        height: auto;
         gap: 5vh;
     }
     .contentMain-aboutme_45454{
