@@ -292,6 +292,10 @@ textarea{
     font-size: 1.3rem;
     color: #fff;
     cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+.inputTextArea_884848 button:hover{
+    background-color: #b90000;
 }
 
 .informationAboutMyExperence_54845{
