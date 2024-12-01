@@ -70,13 +70,20 @@
     visibility: hidden;
     transition: opacity 1s ease-in-out, visibility 0s 1s;
     position: absolute;
-    
 }
 .container-Global_11111.show{
     opacity: 1;
     visibility: visible;
     position: static;
     transition: opacity 1s ease-in-out, visibility 0s 0s;
+}
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 header{
     height: 9vh;
@@ -86,9 +93,7 @@ header{
     align-items: center;
     padding-left: 25vh;
     padding-right: 10vh;
-    background-color: #ffffffec;
-    position: fixed;
-    z-index: 100;
+    background-color: #ffffff;
 }
 #DropDonw-burguer_896776{
     display: none;
@@ -105,6 +110,7 @@ header{
 }
 .ItemsContainerGlobal_371306 a{
     text-decoration: none;
+    width: auto;
 }
 .ItemsContainerGlobal_371306{
     height: auto;
@@ -138,7 +144,7 @@ header{
 .ItemsContainerGlobal_371306 button:hover{
     border-bottom: 2px solid #ff0000;
 }
-a .btnItmesName-Curriculum_686569{
+a .btnItmesName-index_686569{
     border-bottom: 2px solid #ff0000;
 }
 

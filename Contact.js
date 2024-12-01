@@ -31,3 +31,25 @@ botunLigth.forEach((button, i) => {
         updateSlider(i); 
     });
 });
+
+const buttonSubmit = document.querySelector(".Submit");
+const myNumber = 973948044;
+
+buttonSubmit.addEventListener("click", ()=>{
+    const nameUser = document.querySelector("#NamePeople_856777").value;
+    const nameCompany = document.querySelector("#companyNameInput_4584448").value;
+    const numberPhone = document.querySelector("#numberPhone-input_554848").value;
+    const typeCompany = document.querySelector("#Selectheading").value;
+    const messageWhatsApp = document.querySelector("#textAreaInput_123123123").value;
+
+    const text = `Nombre: ${nameUser},
+        Empresa: ${nameCompany},
+        Tipo de empresa: ${typeCompany}
+        ${messageWhatsApp}.
+        Mi numero de contacto es: ${numberPhone}`;
+        
+        const linkWhatsApp = `https://wa.me/${myNumber}?text=${encodeURIComponent(text)}`;
+        window.open(linkWhatsApp, "_blank");
+})
+
+

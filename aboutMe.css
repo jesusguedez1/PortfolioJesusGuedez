@@ -71,13 +71,20 @@
     visibility: hidden;
     transition: opacity 1s ease-in-out, visibility 0s 1s;
     position: absolute;
-    
 }
 .container-Global_11111.show{
     opacity: 1;
     visibility: visible;
     position: static;
     transition: opacity 1s ease-in-out, visibility 0s 0s;
+}
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 header{
     height: 9vh;
@@ -87,9 +94,7 @@ header{
     align-items: center;
     padding-left: 25vh;
     padding-right: 10vh;
-    background-color: #ffffffec;
-    position: fixed;
-    z-index: 100;
+    background-color: #ffffff;
 }
 #DropDonw-burguer_896776{
     display: none;
@@ -106,6 +111,7 @@ header{
 }
 .ItemsContainerGlobal_371306 a{
     text-decoration: none;
+    width: auto;
 }
 .ItemsContainerGlobal_371306{
     height: auto;
@@ -139,7 +145,7 @@ header{
 .ItemsContainerGlobal_371306 button:hover{
     border-bottom: 2px solid #ff0000;
 }
-a .btnItmesName-SobreMi_686569{
+a .btnItmesName-index_686569{
     border-bottom: 2px solid #ff0000;
 }
 
@@ -173,12 +179,16 @@ a .btnItmesName-SobreMi_686569{
     object-fit: cover;
 }
 .sectionSecundaryOfMian-aboutMe_885496{
-    height: 50vh;
+    height: 100%;
     width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: flex-start;
+}
+.sectonSecundaryAboutMe{
+    width: 80%;
+    height: 50%;
 }
 .contentMain-aboutme_45454 h2{
     font-family: var(--fontPrincipal);
@@ -1209,13 +1219,13 @@ footer{
         font-size: 0.8rem;
     }
 }
-@media screen and (max-height:770px) {
+@media screen and (max-height:770px) and (max-width:500px) {
     .sectionSecundaryOfMian-aboutMe_885496{
         height: 32vh;
     }
 }
 
-@media screen and (max-height: 690px) {
+@media screen and (max-height: 690px) and (max-width:500px) {
     .descriptionShowGallery h1{
         font-size: 1.1rem;
     }
@@ -1240,6 +1250,13 @@ footer{
     }
     .contentMain-aboutme_45454{
         padding-top: 0;
+    }   
+}
+@media screen and (max-width:1550px) and (max-height:720px) {
+    .contentMain-aboutme_45454 h2{
+        font-size: 2.3rem;
     }
-    
+    .informationAboutMe_sectionKitchen_77888999 p{
+        font-size: 1rem;
+    }
 }
