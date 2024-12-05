@@ -870,45 +870,6 @@ footer{
     .buttonsSocialNetwork-contact_787878{
         display: none;
     }
-    /*#buttonSocialNetword_1{
-        transform: none;
-        background-color: #40c351;
-        border-radius: 0 10px 10px 0;
-        border: 1px solid #00000098;
-        border-left: 0;
-    }
-    #buttonSocialNetword_1:hover{
-        transform: none;
-    }
-    #buttonSocialNetword_1 img{
-        filter: invert(100%) brightness(100%);
-    }
-    #buttonSocialNetword_2{
-        transform: none;
-        border-radius: 0 10px 10px 0;
-        background: linear-gradient(to right, #168AFF, #9F33FF, #FF6070);
-        border: 1px solid #00000098;
-        border-left: 0;
-    }
-    #buttonSocialNetword_2:hover{
-        transform: none;
-    }
-    #buttonSocialNetword_2 img{
-        filter: invert(100%) brightness(100%);
-    }
-    #buttonSocialNetword_3{
-        transform: none;
-        border-radius: 0 10px 10px 0;
-        background: linear-gradient(to right, #4180ee, #c02117, #e34033 , #f2b806, #32a352);
-        border: 1px solid #00000098;
-        border-left: 0;
-    }
-    #buttonSocialNetword_3:hover{
-        transform: none;
-    }
-    #buttonSocialNetword_3 img{
-        filter: invert(100%) brightness(100%);
-    }*/
     .buttonUnderButton_484848{
         display: flex;
         gap: 1vh;
@@ -1167,5 +1128,10 @@ footer{
 @media screen and (max-width:415px) and (max-height:700px){
     .informationAboutMyExperence_54845{
         height: 31vh;
+    }
+}
+@media screen and (max-width:415px) and (max-height:670px){
+    .DivParent-formContact_5446455{
+        height: 96.5vh;
     }
 }
