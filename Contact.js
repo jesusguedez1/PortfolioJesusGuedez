@@ -18,13 +18,13 @@ function updateSlider(newIndex) {
         }
     });
 }
-/*setInterval(() => {
+setInterval(() => {
     index++;
     if (index >= slider_container.length) {
         index = 0;
     }
     updateSlider(index);
-}, 20000);*/
+}, 20000);
 
 botunLigth.forEach((button, i) => {
     button.addEventListener("click", () => {
@@ -33,14 +33,14 @@ botunLigth.forEach((button, i) => {
 });
 
 const buttonSubmit = document.querySelector(".Submit");
-const myNumber = 973948044;
+const myNumber = "51973948044";
 
 buttonSubmit.addEventListener("click", ()=>{
-    const nameUser = document.querySelector("#NamePeople_856777").value;
-    const nameCompany = document.querySelector("#companyNameInput_4584448").value;
-    const numberPhone = document.querySelector("#numberPhone-input_554848").value;
-    const typeCompany = document.querySelector("#Selectheading").value;
-    const messageWhatsApp = document.querySelector("#textAreaInput_123123123").value;
+    const nameUser = document.querySelector("#NamePeople_856777").value.trim();
+    const nameCompany = document.querySelector("#companyNameInput_4584448").value.trim();
+    const numberPhone = document.querySelector("#numberPhone-input_554848").value.trim();
+    const typeCompany = document.querySelector("#Selectheading").value.trim();
+    const messageWhatsApp = document.querySelector("#textAreaInput_123123123").value.trim();
 
     const text = `Nombre: ${nameUser},
         Empresa: ${nameCompany},
@@ -50,6 +50,7 @@ buttonSubmit.addEventListener("click", ()=>{
         
         const linkWhatsApp = `https://wa.me/${myNumber}?text=${encodeURIComponent(text)}`;
         window.open(linkWhatsApp, "_blank");
+        console.log("Enlace generado:", linkWhatsApp);
 })
 
 let menuBurguer = document.querySelector(".closepOpenButton_dropdonw_545848");
