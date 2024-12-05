@@ -1,7 +1,7 @@
 let slider_container = document.querySelectorAll(".transformSlider");
 let botunLigth = document.querySelectorAll(".pointSliderContet-Information_44445 button");
 
-let index = 1;
+let index = 0;
 function updateSlider(newIndex) {
     index = newIndex;
     let porcentaje = index * -100;
