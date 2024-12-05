@@ -598,14 +598,6 @@ footer{
     #dropdonw-closep_008213:hover{
         transform: scale(1.05);
     }
-    .iconchoteAndContext_4848{
-        height: 100%;
-        width: 60%;
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        gap: 5px;
-    }
     a .btnItmesName-index_686569{
         background-color: #fcfcfc;
         border-left: 5px solid #ff0000;

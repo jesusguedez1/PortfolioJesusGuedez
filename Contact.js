@@ -18,13 +18,13 @@ function updateSlider(newIndex) {
         }
     });
 }
-setInterval(() => {
+/*setInterval(() => {
     index++;
     if (index >= slider_container.length) {
         index = 0;
     }
     updateSlider(index);
-}, 20000);
+}, 20000);*/
 
 botunLigth.forEach((button, i) => {
     button.addEventListener("click", () => {
@@ -51,5 +51,14 @@ buttonSubmit.addEventListener("click", ()=>{
         const linkWhatsApp = `https://wa.me/${myNumber}?text=${encodeURIComponent(text)}`;
         window.open(linkWhatsApp, "_blank");
 })
+
+let menuBurguer = document.querySelector(".closepOpenButton_dropdonw_545848");
+let dropdonwBurguer = document.querySelector("#DropDonw-burguer_896776").addEventListener("click", ()=>{
+    menuBurguer.style.zIndex = "3";
+});
+let closepDropdonw = document.querySelector("#dropdonw-closep_008213").addEventListener("click", ()=>{
+    menuBurguer.style.zIndex = "0";
+})
+
 
 
