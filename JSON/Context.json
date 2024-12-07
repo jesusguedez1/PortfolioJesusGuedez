@@ -3,126 +3,126 @@
         {
             "NameRestaurant": "Hanaq",
             "Subtitle": "Corvina",
-            "Description": "Una corvina fresca antes de ser fileteada para los platos que llevan de proteina pesca del dia "
+            "Description": "Una corvina fresca antes de ser fileteada para los platos que llevan como proteína la pesca del día."
         }
     ],
     "SpaguettiConLomo":[
         {
             "NameRestaurant": "Andiamo",
             "Subtitle": "Spaghetti con lomo saltado",
-            "Description": "Un delicioso spaghetti con lomo fino salteado, tradicional pero diferente a la vez, con ese toque de humo que le da ese sabor caracterisco, con su tomate y cebolla salteados respetando su punto de coccion."
+            "Description": "Un delicioso spaghetti con lomo fino salteado, tradicional pero único a la vez, con ese toque de humo que le aporta su sabor característico. Acompañado de tomate y cebolla salteados, respetando su punto de cocción."
         }
     ],
     "LomoConChampiñones":[
         {
             "NameRestaurant": "Andiamo",
             "Subtitle": "Lomo con champiñones",
-            "Description": "Un medallon de lomo fino a la parrila con un termino 3/4, acompañado de champiñones salteados en mantequilla y perejil y un cremoso fetuccini en salsa de 3 quesos."
+            "Description": "Un medallón de lomo fino a la parrilla en término 3/4, acompañado de champiñones salteados en mantequilla y perejil, y un cremoso fettuccini en salsa de tres quesos."
         }
     ],
     "TartarAcevichado":[
         {
             "NameRestaurant": "Hanaq",
             "Subtitle": "Tartar acevichado",
-            "Description": "Filete de corvina fresca, cortada en trozos pequeños, en una cama de palta sopleteada y tomates cherry confitados, en una salsa acevichada para dar esa explocion de sabores en el paladar."
+            "Description": "Filete de corvina fresca, cortado en trozos pequeños, sobre una cama de palta sopleteada y tomates cherry confitados, acompañado de una salsa acevichada que brinda una explosión de sabores en el paladar"
         }
     ],
     "FotoArrozGracias":[
         {
             "NameRestaurant": "Arroz Gracias",
-            "Subtitle": "Cocineros de lina caliente",
-            "Description": "Una foto muy especial, el cansancio se nota por sacar un servicion de mas de 300 pax. Bueno, luego de un turno de 15 horas seguidas parados frente al fuego cualquiera estaria cansado o no?."
+            "Subtitle": "Cocineros de línea caliente",
+            "Description": "Una foto muy especial. El cansancio se nota por haber sacado un servicio de más de 300 pax. Bueno, después de un turno de 15 horas seguidas, parados frente al fuego, ¿quién no estaría cansado?"
         }
     ],
     "ArrisotadoYpulpo":[
         {
             "NameRestaurant": "Hanaq",
-            "Subtitle": "Arrisotado a la huancaina con pulpo al fogon",
-            "Description": "El arroz envuelto en una salsa hucaina, con un punto alto de humo, de proteina un tentaculo de pulpo a la parrilla con verduras salteadas para causar un remolino de sabores en tu boca."
+            "Subtitle": "Arrisotado a la huancaína con pulpo al fogón",
+            "Description": "El arroz envuelto en una salsa huancaína, con un alto toque de humo, acompañado de un tentáculo de pulpo a la parrilla y verduras salteadas, creando un remolino de sabores en tu boca."
         }
     ],
     "Raviolis":[
         {
             "NameRestaurant":"Andiamo",
             "Subtitle": "Raviolis de espinaca y ricota",
-            "Description": "No pueden faltar en esta galeria de fotos, unos rabiolis de espinaca y ricota, con una salsa de tomate rustico llamada pomodoro, cocinada por 2 horas hasta que el tomate se deshaga para brindar una textura rustica al paladar para brindar una buena experiencia al comenzal."
+            "Description": "No pueden faltar en esta galería de fotos unos raviolis de espinaca y ricota, acompañados de una salsa de tomate rústico llamada pomodoro, cocinada durante 2 horas hasta que el tomate se deshaga, brindando una textura rústica al paladar y ofreciendo una excelente experiencia al comensal."
         }
     ],
     "CarpaccioLomo":[
         {
             "NameRestaurant": "Hanaq",
-            "Subtitle": "Carpaccio De lomo al olivo",
-            "Description": "Lomo fino cortado en finas laminas, de base una salsa de olivo tradicional y flameado con soplete de mano con aceite de albahaca perarado en la cocina, con tomates cherry confitados, arugula parmesano en laminas, alcaparras y sus tostadas para acompañar."
+            "Subtitle": "Carpaccio de lomo al olivo",
+            "Description": "Lomo fino cortado en finas láminas, sobre una base de salsa de oliva tradicional, flameado con soplete de mano y aceite de albahaca preparado en la cocina. Acompañado de tomates cherry confitados, arúgula, parmesano en láminas, alcaparras y tostadas para acompañar."
         }
     ],
     "TeamHanaq":[
         {
             "NameRestaurant": "Hanaq",
             "Subtitle": "Foto Team Hanaq",
-            "Description": "Foto iconica con el equipo de Hanaq y el chef Hans Pueller, un equipo de profesionales entrenados, listos para sacar servicios retadores como lo demanda la alta cocina."
+            "Description": "Foto icónica con el equipo de Hanaq y el chef Hans Pueller, un equipo de profesionales entrenados, listos para sacar servicios desafiantes como lo demanda la alta cocina."
         }
     ],
     "ArrozConPato":[
         {
             "NameRestaurant": "Hanaq",
             "Subtitle": "Arroz con pato",
-            "Description": "Un arroz con pato a la norteña, elaborado con ingredientes frescos para obtener la maxima calidad de sabores. El pato se cocina en la salsa por un determinado tiempo y luego a la hora de servir, se le hace una fritura profunda, un arroz con pato al mas puro estilo de la cocina de vanguardia."
+            "Description": "Un arroz con pato a la norteña, elaborado con ingredientes frescos para obtener la máxima calidad de sabores. El pato se cocina en la salsa por un tiempo determinado y, al momento de servir, se le realiza una fritura profunda. Un arroz con pato al más puro estilo de la cocina de vanguardia."
         }
     ],
     "BPM1":[
         {
             "NameRestaurant": "Arroz Gracias",
             "Subtitle": "BPM 1",
-            "Description": "Las Buenas Prácticas de Manufactura (BPM) es esencial, en cualquier cocina desde, desde criollo tradicional, hasta la alta cocina, siempre respetando las cadenas de frio, lavando y etiquetando todo antes de guardar, nos garantiza alimentos saludables y sin perdida."
+            "Description": "Las Buenas Prácticas de Manufactura (BPM) son esenciales en cualquier cocina, desde la criolla tradicional hasta la alta cocina. Siempre respetando las cadenas de frío, lavando y etiquetando todo antes de guardar, nos garantizan alimentos saludables y sin pérdidas."
         }
     ],
     "BPM2":[
         {
             "NameRestaurant": "Arroz Gracias",
             "Subtitle": "BPM 2",
-            "Description": "Las Buenas Prácticas de Manufactura (BPM) es esencial, en cualquier cocina desde, desde criollo tradicional, hasta la alta cocina, siempre respetando las cadenas de frio, lavando y etiquetando todo antes de guardar, nos garantiza alimentos saludables y sin perdida."
+            "Description": "Las Buenas Prácticas de Manufactura (BPM) son esenciales en cualquier cocina, desde la criolla tradicional hasta la alta cocina. Siempre respetando las cadenas de frío, lavando y etiquetando todo antes de guardar, nos garantizan alimentos saludables y sin pérdidas."
         }
     ],
     "TeamAndiamo":[
         {
             "NameRestaurant": "Andiamo",
-            "Subtitle": "Reunion de jefes de areas con gerencia",
-            "Description": "Un recuerdo cuando lideraba la cocina de del restaurante matriz de la marca andiamo. En la foto aparecen los 2 jefes de cocina de los demas locales, los jefes de salon, la administradora, el jefe de operaciones y el gerente general de la marca."
+            "Subtitle": "Reunión de jefes de áreas con gerencia",
+            "Description": "Un recuerdo de cuando lideraba la cocina del restaurante matriz de la marca Andiamo. En la foto aparecen los dos jefes de cocina de los demás locales, los jefes de salón, la administradora, el jefe de operaciones y el gerente general de la marca."
         }
     ],
     "Tiramisu":[
         {
             "NameRestaurant": "Andiamo",
-            "Subtitle": "Tiramisu",
-            "Description": "Un postre elaborado en el area de reposteria, el tiramisu es mundialmente conocido por su elaboracion con cafe de grano seleccionado y su caracteristico queso mascarpone."
+            "Subtitle": "Tiramisú",
+            "Description": "Un postre elaborado en el área de repostería, el tiramisú es mundialmente conocido por su preparación con café de grano seleccionado y su característico queso mascarpone."
         }
     ],
     "CroncateDeManzana":[
         {
             "NameRestaurant": "Andiamo",
             "Subtitle": "Crocante de manzana",
-            "Description": "No puede faltar el rico crocante de manzana, acompañado de un elado con syrup de chocolate y culish de cereza."
+            "Description": "No puede faltar el rico crocante de manzana, acompañado de un helado con syrup de chocolate y coulis de cereza."
         }
     ],
     "TeamHanaq2":[
         {
             "NameRestaurant": "Hanaq",
             "Subtitle": "Team Hanaq 2",
-            "Description": "Otra foto con el team de Hanaq antes de salir con el servicio de la cena. Coordinacion, respeto, comunicacion y apoyo son las bases de un buen equipo."
+            "Description": "Otra foto con el team de Hanaq antes de salir con el servicio de la cena. Coordinación, respeto, comunicación y apoyo son las bases de un buen equipo."
         }
     ],
     "Gnocchi":[
         {
             "NameRestaurant": "Andiamo",
             "Subtitle": "Gnocchi a la carbonara",
-            "Description": "Una masa de papas, harina y huevo porcionadas en pequeñas bolitas cocinadas para luego integrarla a una salsa tipo carbonara al estilo español (con crema de leche por pedido del comenzal)."
+            "Description": "Una masa de papas, harina y huevo, porcionada en pequeñas bolitas, cocinada y luego integrada a una salsa tipo carbonara al estilo español (con crema de leche, por pedido del comensal)."
         }
     ],
     "FetucciniYLomo": [
         {
             "NameRestaurant": "Andiamo",
-            "Subtitle": "Fetuccini al aji amarillo y lomo fino salteado",
-            "Description": "Unos fetuccinis en crema de aji amarillo, con un lomo al jugo salteado a termino 3/4, un plato que a simple vista se ve sencillo pero causa unos contraste de sabores muy especiales."
+            "Subtitle": "Fetuccini al ají amarillo y lomo fino salteado",
+            "Description": "Unos fettuccinis en crema de ají amarillo, con un lomo al jugo salteado a término 3/4. Un plato que, a simple vista, parece sencillo, pero causa contrastes de sabores muy especiales."
         }
     ]
 }

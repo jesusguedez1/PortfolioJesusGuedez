@@ -349,7 +349,7 @@ a .btnItmesName-index_686569{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap: 1vh;
+    gap: 2vh;
     
 }
 .buttonsSocialNetwork-index_454844 a{
@@ -365,8 +365,8 @@ a .btnItmesName-index_686569{
     
 }
 .buttonsSocialNetwork-index_454844 a img{
-    height: 3vh;
-    width: 3vh;
+    height: 4vh;
+    width: 4vh;
 }
 
 .buttonsSocialNetwork-index_454844 h3{
@@ -660,8 +660,8 @@ footer{
         font-size: 1rem;
     }
     .buttonsSocialNetwork-index_454844 a img{
-        height: 2.8vh;
-        width: 2.8vh;
+        height: 3.5vh;
+        width: 3.5vh;
     }
     footer{
         width: 100%;
@@ -741,6 +741,13 @@ footer{
     }
 }
 @media screen and (max-width: 670px){
+    
+    .buttonsSocialNetwork-index_454844{
+        gap: 1.5vh;
+        width: 100%;
+        justify-content: center;
+
+    }
     .contentGlobal-SectionMain_548488{
         height: 75vh;
         width: 50vh;
@@ -790,6 +797,7 @@ footer{
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
+        padding-top: 0;
     }
     .divContent-mainContainer_4846549 p{
         width: 100%;
@@ -823,8 +831,8 @@ footer{
         padding-top: 1vh;
     }
     .buttonsSocialNetwork-index_454844 a img{
-        height: 2.7vh;
-        width: 2.7vh;
+        height: 3.5vh;
+        width: 3.5vh;
     }
     .divContent-mainContainer_4846549{
         gap: 0.6vh;
@@ -867,11 +875,11 @@ footer{
         width: 90%;
         height: 100%;
         justify-content: center;
-        padding-top: 1vh;
+        padding-top: 1.5vh;
     }
     .buttonsSocialNetwork-index_454844 a img{
-        height: 2.8vh;
-        width: 2.8vh;
+        height: 3.2vh;
+        width: 3.2vh;
     }
     .flag_45484{
         padding-top: 1.5vh;

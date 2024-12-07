@@ -175,7 +175,7 @@ a .btnItmesName-Contacto_686569{
 }
 .DivParent-formContact_5446455{
     height: 75vh;
-    width: 110vh;
+    width: 130vh;
     background-color: #242424;
     z-index: 1;
     border-radius: 10px;
@@ -412,7 +412,7 @@ textarea{
 .TextInformation3 h2{
     font-family: var(--fontPrincipal);
     font-weight: 400;
-    font-size: 2.5rem;
+    font-size: 2.1rem;
     color: #fff;
     height: 10vh;
     width: 100%;
@@ -428,13 +428,13 @@ textarea{
     font-size: 1.1rem;
 }
 .TextInformation3 img{
-    height: 70%;
-    width: 40%;  
+    height: 46%;
+    width: 14%;  
     object-fit: cover;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 5vh;
+    padding-left: 1vh;
 }
 .pointSliderContet-Information_44445{
     height: 5%;
@@ -1079,8 +1079,8 @@ footer{
         font-size: 1.3rem;   
     }
     .TextInformation3 img{
-        height: 1.5rem;
-        width: 1.5rem;
+        height: 1.6rem;
+        width: 2.1rem;
     }
 }
 @media screen and (max-width:400px) and (max-height:825px) {
