@@ -20,6 +20,13 @@
         "description": "Certificado emitido por la gerencia de ALGORES SAC por haber desempeñado el cargo de Jefe de Cocina correctamente."
       }
     ],
+    "certificateParada860": [
+      {
+        "companyName": "Parada860",
+        "certificateName": "Jefe de Cocina",
+        "description": "Certificado emitido por la administracion de NEBCORP SAC por haber desempeñado el cargo de Jefe de Cocina correctamente."
+      }
+    ],
     "certificateHTML": [
       {
         "companyName": "Ademass",

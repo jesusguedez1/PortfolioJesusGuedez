@@ -7,6 +7,7 @@ let concontal_P_p = document.querySelector(".contalP");
 let identifier11 = document.querySelector("#IdwithTextContent_1");
 let identifier22 = document.querySelector("#IdwithTextContent_2");
 let identifier33 = document.querySelector("#IdwithTextContent_3");
+let identifier44 = document.querySelector("#IdwithTextContent_4");
 
 
 function displayCertificateData(company, certName, description) {
@@ -14,7 +15,6 @@ function displayCertificateData(company, certName, description) {
     concontal_H3_h3.textContent = certName;
     concontal_P_p.textContent = description;
 }
-
     workCertificade_45848.forEach((e) => {
         e.addEventListener('click', () => {
             popUpBackground_4848.style.display = "flex";
@@ -63,6 +63,20 @@ identifier33.addEventListener("click", () => {
                 data.certificateAndiamo[0].companyName,
                 data.certificateAndiamo[0].certificateName,
                 data.certificateAndiamo[0].description
+            );
+        })
+        .catch(error => {
+            console.error('Error al obtener los datos:', error);
+        });
+});
+identifier44.addEventListener("click", () => {
+    fetch('./JSON/certificate.json')
+        .then(resp => resp.json())
+        .then(data => {
+            displayCertificateData(
+                data.certificateParada860[0].companyName,
+                data.certificateParada860[0].certificateName,
+                data.certificateParada860[0].description
             );
         })
         .catch(error => {

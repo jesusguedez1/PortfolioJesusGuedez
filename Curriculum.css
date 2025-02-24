@@ -395,8 +395,8 @@ a .btnItmesName-Curriculum_686569{
     align-items: center;
 }
 .certicade-work_545454{
-    height: 35vh;
-    width: 70%;
+    height: auto;
+    width: 90%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -481,6 +481,21 @@ a .btnItmesName-Curriculum_686569{
     align-items: center;
 }
 .ImgCertificade_1515122_1 img{
+    height: 25vh;
+    width: 100%;
+    object-fit: cover;
+    border: 1px solid #f3f3f3;
+    border-bottom: 0;
+    border-radius: 10px;
+}
+.ImgCertificade_1515122_4{
+    height: 35vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ImgCertificade_1515122_4 img{
     height: 25vh;
     width: 100%;
     object-fit: cover;
@@ -1144,6 +1159,7 @@ footer{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-top: 5vh;
     }
     .container-Footer-divSuperior_9988999{
         width: 90%;
@@ -1333,10 +1349,15 @@ footer{
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        height: 100vh;
+        height: auto;
+        flex-wrap: nowrap;
+        
     }
     .certificadeSecundaryCOntainer_16515{
-        height: 180vh;
+        height: 235vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
    
 }
@@ -1446,7 +1467,7 @@ footer{
         flex-direction: column;
     }
     .certificadeSecundaryCOntainer_16515{
-        height: 240vh;
+        height: 255vh;
     }
     .certicade-Ademas_545454{
         gap: 0;
